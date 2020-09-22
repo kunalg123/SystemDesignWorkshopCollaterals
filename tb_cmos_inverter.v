@@ -2,7 +2,7 @@
 module tb_cmos_inverter;
 	// Inputs
 	reg inv_in;
-        // Inputs
+        // Outputs
 	wire inv_out;
 
 	// Instantiate the Unit Under Test (UUT)
