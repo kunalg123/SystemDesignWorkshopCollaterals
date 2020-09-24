@@ -2,7 +2,7 @@
 `include "full_adder_sum.v"
 `include "full_adder_cout.v"
 module ripple_carry_adder #(
-	parameter WIDTH = 1 
+	parameter WIDTH = 32 
 	) (
 	 input [WIDTH-1:0] input_a,
 	 input [WIDTH-1:0] input_b,

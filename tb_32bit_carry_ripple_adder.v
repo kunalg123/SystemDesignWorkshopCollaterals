@@ -11,7 +11,7 @@ module tb_32bit_carry_ripple_adder;
 
         // Instantiate the Unit Under Test (UUT)
 	ripple_carry_adder #(
-		.WIDTH(32)
+		.WIDTH(N)
 		) uut (
 		.input_a(input_a),
 		.input_b(input_b),
