@@ -23,5 +23,3 @@ module tb_tx_gate;
 always #2 sel = ~sel;
 always #1 in = $random;
 endmodule
-
-

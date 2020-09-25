@@ -7,4 +7,6 @@ module tx_gate (out, sel, in);
 	pmos(out, in, sel_bar);
 	nmos(out, in, sel);
 	cmos_inverter inv (sel_bar, sel);
+	pulldown (out);
 endmodule
+
